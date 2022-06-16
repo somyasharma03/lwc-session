@@ -1,0 +1,22 @@
+<template>
+    <lightning-card title="Personal Details"> 
+          
+        <!-- <lightning-input type="text"  label="Address" value= {Address} name="Address" onchange={handleChange}></lightning-input>
+        <lightning-input type="text" label="country" value= {country} name="country" onchange={handleChange}></lightning-input>
+        <lightning-input type="text" label="city" value= {City} name="city" onchange={handleChange}></lightning-input> -->
+        <!-- <lightning-input type="number"  label="postal code" class="validate" value= {postalcode} onchange={personalDetailHandle}></lightning-input>
+        <lightning-input type="Date" label="DOB" value= {DOB} onchange={personalDetailHandle}></lightning-input>
+        <lightning-input type="text"  label="Place of Birth" value= {placeOfBirth} onchange={personalDetailHandle}></lightning-input>
+        <lightning-input type="number" label="Phone"  value= {Phone} onchange={personalDetailHandle}></lightning-input>   -->
+
+
+         <!-- <lightning-input class="slds-p-around_medium" label="First Name" name="firstName" 
+                    onchange={handleChange}></lightning-input>
+        <lightning-button label="Cancel" onclick={cancelHandle}></lightning-button>
+        <lightning-button label="Submit" onclick={handleClick}></lightning-button> -->
+
+
+        <lightning-record-form object-api-name={ContactObjectApiName} fields={ContactFieldList} record-id={recordId} onsuccess={contactHandleUpdate}></lightning-record-form>
+
+      </lightning-card>
+</template>
